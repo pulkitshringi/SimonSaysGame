@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./assets/thumbnail.png">
+</head>
+<body>
+    <div class="game">
+        <div class="info white">
+            <h2 id="h2p">How to Play?</h2>
+            <ul>
+            <li><b>Start:</b>Press any key to start the game.</li>
+            <li><b>Remember the Pattern:</b> in which buttons are pressed</li>
+                <li><b>Repeat the Pattern: </b> After Simon finishes the sequence, it's your turn! Click on the colors in the same order that Simon played them.</li>
+                <li><b>Correct Guess:</b> If you correctly repeat the sequence, Simon will add another color to the pattern. Your task is to remember the entire sequence and continue to repeat it accurately.</li>
+                <li><b>Incorrect Guess:</b> If you make a mistake and click the wrong color or click them in the wrong order, the game will end, and your score will be displayed.</li>
+                <li><b>Beat Your High Score 🏆:</b> The goal is to beat your own high score or challenge your friends to see who can remember the longest sequence.</li>
+            </ul>
+        </div>
+        <div class="head">
+            <h1 class="white">Simon Says Game</h1>
+            <h2 class="white levell">Press any key to start the game</h2>
+            <div class="btn-container">
+                <div class="line1">
+                    <div class="btn red" id="red" type="button"></div>
+                    <div class="btn yellow" id="yellow" type="button"></div>
+                </div>
+                <div class="line2">
+                    <div class="btn green" id="green" type="button"></div>
+                    <div class="btn purple" id="purple" type="button"></div>
+                </div>
+            </div>
+        </div>
+        <div class="high">
+            <span><button class="button-74" role="button">Start Game</button></span>
+            <h3 class="white">High Score : 0</h3>
+        </div>
+    </div>
+    <!-- </div>   -->
+    <div class="credits">
+        Designed by Pulkit Shringi <i class="fa fa-regular fa-heart"></i>
+        <hr>
+        <a class="white" href="https://www.linkedin.com/in/pulkitshringi/"><i class="fa a-brands fa-linkedin" style="color: #e6ebf5;"></i> &nbsp;Pulkit Shringi</a>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
