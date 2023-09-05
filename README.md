@@ -1,7 +1,7 @@
 # SimonSaysGame
 This HTML, CSS, and JavaScript code represents a "Simon Says" memory game. The game provides instructions on how to play and includes colored buttons that players need to replicate in the correct sequence.
 
-#How to play 
+# How to play 
 Start: Press any key to start the game.
 Remember the Pattern: in which buttons are pressed
 Repeat the Pattern: After Simon finishes the sequence, it's your turn! Click on the colors in the same order that Simon played them.
