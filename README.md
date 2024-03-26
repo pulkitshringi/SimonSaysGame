@@ -1,5 +1,6 @@
 # SimonSaysGame
 This HTML, CSS, and JavaScript code represents a "Simon Says" memory game. The game provides instructions on how to play and includes colored buttons that players need to replicate in the correct sequence.
+Link - https://pulkitshringi.github.io/SimonSaysGame/
 
 # How to play 
 Start: Press any key to start the game.<br>
